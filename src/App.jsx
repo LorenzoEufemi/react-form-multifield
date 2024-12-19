@@ -29,7 +29,6 @@ function App() {
 
     event.preventDefault()
 
-
       const newArticle = {
         ...initialArticles,
         id: Date.now(),
